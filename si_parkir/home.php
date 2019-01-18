@@ -123,6 +123,14 @@ if(!isset($_SESSION['username'])) { //if not yet logged in
           </ul>
         </li>
         <!--akhir menu page-->
+
+        <!--awal menu page-->
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">About</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+           <li><a class="treeview-item" href="about.php"><i class="icon fa fa-circle-o"></i>Tentang Kelompok</a></li>
+          </ul>
+        </li>
+        <!--akhir menu page-->
       </ul>
 
       <ul class="app-menu">
